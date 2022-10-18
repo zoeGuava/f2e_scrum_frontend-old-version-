@@ -5,9 +5,9 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import ExampleLearn from '../views/ExampleLearn';
-import ExampleChallenge from '../views/ExampleChallenge';
-import IndexPage from '../views/IndexPage';
+import ExampleLearn from '../views/examplelearn';
+import ExampleChallenge from '../views/examplechallenge';
+import IndexPage from '../views';
 
 function NavBar() {
   return (
