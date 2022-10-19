@@ -12,11 +12,13 @@ import './App.css';
 
 function App() {
   return (
+
     <div className="App">
-      <NavBar />
 
       <hr />
-      <Router>
+      <Router forceRefresh>
+        <NavBar />
+        <hr />
         <Routes>
           <Route path="/" element={<IndexPage />} />
           <Route path="/learn" element={<ExampleLearn />} />
