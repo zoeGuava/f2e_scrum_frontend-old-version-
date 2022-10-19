@@ -1,12 +1,12 @@
 import React from 'react';
 
-function IndexPage() {
+function Home() {
   return (
 
-    <div className="IndexPage">
-      This is index page.
+    <div className="Home">
+      This is home page.
     </div>
   );
 }
 
-export default IndexPage;
+export default Home;

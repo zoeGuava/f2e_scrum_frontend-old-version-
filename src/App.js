@@ -7,7 +7,7 @@ import {
 import NavBar from './components/NavBar';
 import ExampleLearn from './views/learn';
 import ExampleChallenge from './views/challenge';
-import IndexPage from './views';
+import Home from './views';
 import './App.css';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <NavBar />
         <hr />
         <Routes>
-          <Route path="/" element={<IndexPage />} />
+          <Route path="/" element={<Home />} />
           <Route path="/learn" element={<ExampleLearn />} />
           <Route path="/challenge" element={<ExampleChallenge />} />
         </Routes>
